@@ -1,0 +1,30 @@
+{
+  "name": "convertto",
+  "version": "0.1.0",
+  "description": "A measurements converter",
+  "main": "dist/src/convertto.js",
+  "scripts": {
+    "build": "babel src/convertto.js -d dist",
+    "test": "mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/JSifontz/convertto.git"
+  },
+  "keywords": [
+    "measurement",
+    "converter",
+    "platzi",
+    "javascript",
+    "fundamentos",
+    "js"
+  ],
+  "author": "Juan Sifontez <juansfontz@gmail.com> (http://twitter.com/Jsifontz_)",
+  "license": "MIT",
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-preset-env": "^1.6.0",
+    "chai": "^4.1.2",
+    "mocha": "^3.5.3"
+  }
+}
